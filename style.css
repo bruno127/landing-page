@@ -7,3 +7,18 @@
     display: flex;
     justify-content: center
 }
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.picture {
+    width: 250px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
