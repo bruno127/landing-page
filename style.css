@@ -61,7 +61,10 @@ button {
     padding: 8px 16px;
 }
 
-.content-one {
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: indianred
 }
 
 .content {
@@ -82,6 +85,12 @@ button {
     gap: 52px;
 }
 
+.pic-one {
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
 .picture {
     width: 250px;
     text-align: center;
@@ -90,4 +99,6 @@ button {
 .text {
     text-align: center;
     margin-top: 5px;
+    font-size: larger;
+    font-weight: bold;
 }
