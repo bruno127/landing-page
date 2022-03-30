@@ -9,10 +9,52 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    margin: 0;
-    padding: 0;
-    height: 100px;
-    height: ;
+    align-items: center;
+}
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 80px;
+}
+
+.content-two {
+    display: flex;
+    align-items: center;
+}
+.content-one button {
+    background-color: rgb(8, 70, 168);
+    color: rgb(232, 230, 227);
+    border: 1px black;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+
+.content-one button a {
+    font-size: 14px;
+}
+.content-two img {
+    height: 500px;
+    width: auto;
+}
+.button-one {
+    display: flex;
+    justify-content: center;
+}
+
+.iron-man {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    color: red;
+    font-size: 24px;
+    gap: 8px;
+}
+
+div.man {
+    color: gold
 }
 
 .about {
@@ -40,12 +82,14 @@ div.a {
     color: #f9faf8;
     margin-top: 80px;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 div.c {
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 32px;
+    text-align: justify
 }
 
 div.d {
@@ -64,13 +108,15 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-    background-color: indianred
+    background-color: indianred;
+    padding: 16px;
 }
 
 .content {
     display: flex;
     justify-content: space-evenly;
     background-color: #1F2937;
+    height: 700px;
 }
 
 .large {
@@ -101,4 +147,70 @@ button {
     margin-top: 5px;
     font-size: larger;
     font-weight: bold;
+}
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 60px;
+}
+
+.text-two {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 8px;
+}
+
+.text-two-one {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-top: 16px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    background-color: blue;
+    margin: 100px 400px;
+    border: 5px solid black;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.text-action,
+.action-two {
+    font-size: 30px;
+}
+
+.action-two {
+   text-align: center;
+}
+
+.action-two button {
+    border: 1px black;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+
+.action-two button a {
+    font-size: 14px;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    height: 91px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
 }
