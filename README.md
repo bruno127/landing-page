@@ -1,1 +1,1 @@
-My first landing page. Very proud of it, I have spent about 10hours on it. Credits to "Odin project", who made all this possible.
+My first landing page. Very proud of it, I have spent about 10hours on it. Credits to "Odin project" course, who made all this possible.
